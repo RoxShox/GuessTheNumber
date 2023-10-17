@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Угадай число</title>
+		<link rel="stylesheet" href="./assets/styles/styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="canvas">
+				<div class="desc__wrap">
+					<h1 class="desc__title">Игра: угадай число</h1>
+					<p class="desc">
+						Компьютер загадал число от 1 до 1000. Ваша задача его угадать
+					</p>
+				</div>
+				<div class="field">
+					<p class="error"></p>
+					<label for="field__input" class="field__label"> Ваше число </label>
+					<input type="text" class="field__input" />
+					<button class="field__btn">Проверить</button>
+				</div>
+				<div class="help-parity"></div>
+				<div class="result">
+					<div class="result__check">
+						<span class="result__check-label"> Результат: </span>
+						<span class="result__check-out"></span>
+					</div>
+					<div class="result__help">
+						<span class="result__help-label">Подсказка: </span>
+						<span class="result__help-out"></span>
+					</div>
+					<div class="result__count">
+						<span class="result__count-label">Число попыток: </span>
+						<span class="result__count-out"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

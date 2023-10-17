@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: url(../img/bg.png);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.canvas{
+    background-color: #fbfbea;
+    padding: 20px;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 4px 8px 0 rgba(34,60,80, 0.2);
+}
+
+.desc__title{
+    text-align: center;
+    color: #222;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.desc{
+    color: #6c757d;
+}
+
+.field__label{
+    color:#6c757d;
+    margin-right: 10px;
+}
+.field__input {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.field__btn {
+    padding: 10px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+.error{
+    color: red;
+}
+.help-parity{
+    font-weight: 700;
+    color: green;
+    font-size: 20px;
+}
